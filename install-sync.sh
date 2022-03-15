@@ -13,3 +13,6 @@ mv sync.exe .. # move to root of project
 file=$(pwd) # save directory path
 cd .. # move to root of project
 rm -rf $file # delete repo used to build
+
+# Initial run
+./sync.exe
