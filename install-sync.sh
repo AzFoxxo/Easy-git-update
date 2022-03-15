@@ -8,12 +8,23 @@ rm -f tcc.zip
 # Compile sync
 tcc/tcc/tcc.exe git-update.c -o sync.exe
 
-# Optional extract into project and run for the first time
-mv sync.exe .. # move to root of project
-exit # remove to continue (be careful)
-file=$(pwd) # save directory path
-cd .. # move to root of project
-rm -rf $file # delete repo used to build
+function open-window() {
+  mkdir build
+  mv sync.exe build
+  cd build
+  explorer .
+}
 
-# Initial run
-./sync.exe
+function add-to-project() {
+  # Optional extract into project and run for the first time
+  mv sync.exe .. # move to root of project
+  file=$(pwd) # save directory path
+  cd .. # move to root of project
+  rm -rf $file # delete repo used to build
+
+  # Initial run
+  ./sync.exe
+}
+
+# Default to opening the window to manually place the sync file
+open-window
