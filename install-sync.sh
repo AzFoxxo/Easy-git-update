@@ -9,6 +9,7 @@ rm -f tcc.zip
 tcc/tcc/tcc.exe git-update.c -o sync.exe
 
 function open-window() {
+  # Open file in build directory for manually placing the file
   mkdir build
   mv sync.exe build
   cd build
