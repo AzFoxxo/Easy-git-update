@@ -15,9 +15,9 @@ int main(void)
         // Run fast sync
         fast_sync();
         
-		// Halt till enter pressed or any character
-		puts("Hit enter to re-sync!\nControl + C to exit!");
-		getchar();
+	// Halt till enter pressed or any character
+	puts("Hit enter to re-sync!\nControl + C to exit!");
+	getchar();
     }
 }
 
