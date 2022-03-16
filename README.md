@@ -1,4 +1,4 @@
-# git-update-for-windows
+# Easy, git, update
 
 ## Installation
 Download the repo and open git bash or Windows subsystem for Linux and run the file ```install-sync.sh```
