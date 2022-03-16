@@ -1,4 +1,5 @@
 # Easy, git, update
+Continously push files to a remote git repo effortlessly
 
 ## Installation
 Download the repo and open git bash or Windows subsystem for Linux and run the file ```install-sync.sh```
