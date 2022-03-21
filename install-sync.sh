@@ -6,7 +6,7 @@ curl -o tcc.zip "http://mirror.netcologne.de/savannah/tinycc/tcc-0.9.27-win64-bi
 unzip tcc.zip -d "tcc"
 rm -f tcc.zip
 
-# Compile sync
+# Compile sync with tcc
 tcc/tcc/tcc.exe git-update.c -o sync.exe
 
 function open-window() {
