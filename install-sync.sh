@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 
 # Download, extract and delete
-curl -o tcc.zip "https://mirrors.sarata.com/non-gnu/tinycc/tcc-0.9.27-win64-bin.zip"
+curl -o tcc.zip "http://mirror.netcologne.de/savannah/tinycc/tcc-0.9.27-win64-bin.zip"
+
 unzip tcc.zip -d "tcc"
 rm -f tcc.zip
 
