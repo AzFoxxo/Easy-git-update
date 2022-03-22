@@ -9,6 +9,9 @@ rm -f tcc.zip
 # Compile sync with tcc
 tcc/tcc/tcc.exe git-update.c -o sync.exe
 
+# Remove compiler
+rm -rf tcc
+
 function open-window() {
   # Open file in build directory for manually placing the file
   mkdir build
