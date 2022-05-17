@@ -15,5 +15,5 @@ Manual intervention may be required for adding files to git
 - Git - to clone repo
 - Bash - to run installation script on Windows platforms
 - TCC - to compile on Windows (auto-downloads)
-- Make - to compile on non-Windows platforms (invokes GCC or other C compiler)
+- Make - to compile on non-Windows platforms (invokes GCC or other an C compiler)
 - GCC - to compile on non-Windows platforms
