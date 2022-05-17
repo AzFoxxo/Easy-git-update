@@ -23,6 +23,10 @@ int main(void)
 
 void fast_sync()
 {
+	// Pull changes from remote repo
+	puts(">> Pulling new version from remote...");
+	system("git pull");
+	
 	// Add changes
 	puts(">> Adding everything...");
 	system("git add .");
