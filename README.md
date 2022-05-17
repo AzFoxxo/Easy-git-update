@@ -12,8 +12,8 @@ Same as above but use the command ```make git-update``` rather than running the 
 Manual intervention may be required for adding files to git
 
 ## Dependencies
-Git - to clone repo
-Bash - to run installation script on Windows platforms
-TCC - To compile on Windows (auto-downloads)
-Make - To compile on non-Windows platforms (invokes GCC or other C compiler)
-GCC - TO compile on non-Windows platforms
+- Git - to clone repo
+- Bash - to run installation script on Windows platforms
+- TCC - To compile on Windows (auto-downloads)
+- Make - To compile on non-Windows platforms (invokes GCC or other C compiler)
+- GCC - TO compile on non-Windows platforms
