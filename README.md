@@ -14,6 +14,6 @@ Manual intervention may be required for adding files to git
 ## Dependencies
 - Git - to clone repo
 - Bash - to run installation script on Windows platforms
-- TCC - To compile on Windows (auto-downloads)
-- Make - To compile on non-Windows platforms (invokes GCC or other C compiler)
-- GCC - TO compile on non-Windows platforms
+- TCC - to compile on Windows (auto-downloads)
+- Make - to compile on non-Windows platforms (invokes GCC or other C compiler)
+- GCC - to compile on non-Windows platforms
