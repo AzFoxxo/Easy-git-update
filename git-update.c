@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#define null 0
-#define false 0
-#define true 1
+#include <stdbool.h>
 
 void fast_sync();
 
